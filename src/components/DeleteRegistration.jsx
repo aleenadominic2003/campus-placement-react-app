@@ -1,12 +1,10 @@
 import React from 'react'
 import NavigationBar from './NavigationBar'
 
-
-const SearchRegistration = () => {
+const DeleteRegistration = () => {
   return (
     <div>
         <NavigationBar />
-
     <div className="container">
         <div className="row">
             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -14,17 +12,16 @@ const SearchRegistration = () => {
             <div className="row">
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
-                <label htmlFor="" className="form-label">Registration Number</label>
+                <label htmlFor="" className="form-label">Registration No</label>
                 <input type="text" className="form-control" />
 
                 </div>
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
-                <button className="btn btn-success">Search Button</button>
+                <button className="btn btn-danger">Delete Button</button>
 
                 </div>
             </div>
-
 
             </div>
         </div>
@@ -35,4 +32,4 @@ const SearchRegistration = () => {
   )
 }
 
-export default SearchRegistration
+export default DeleteRegistration
