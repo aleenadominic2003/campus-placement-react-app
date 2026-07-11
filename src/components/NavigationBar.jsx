@@ -16,6 +16,7 @@ const NavigationBar = () => {
         <a class="nav-link" href="/">Add Registration</a>
         <a class="nav-link" href="/search">Search Registration</a>
         <a class="nav-link" href="/delete">Delete Registration</a>
+        <a class="nav-link" href="/view">View All</a>
         
         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
       </div>
